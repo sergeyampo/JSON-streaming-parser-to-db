@@ -1,9 +1,0 @@
-{
-  "coins":
-  {
-    "user": "postgres",
-    "host": "localhost",
-    "database": "locals",
-    "password": "seregamw1"
-  }
-}

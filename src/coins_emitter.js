@@ -17,7 +17,7 @@ class Coins extends EventEmitter{
 /**
  *
  * @param coins_emitter - {EventEmitter} object Coins - containing database connection object.
- * @returns {EventEmitter} object with connected listeners.
+ * @returns {EventEmitter} with connected listeners
  */
 module.exports = function configure_emitter(coins_emitter){
     coins_emitter.on('coin_extracted', async (coin_info) => {

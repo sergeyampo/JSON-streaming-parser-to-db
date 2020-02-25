@@ -1,4 +1,4 @@
-process.env.NODE_CONFIG_DIR = './config';
+process.env.NODE_CONFIG_DIR = './src/config';
 const extract_coins = require('./extract_coins.js');
 const CoinsEmitter = require('./coins_emitter').Coins;
 const configure_emitter = require('./coins_emitter');
