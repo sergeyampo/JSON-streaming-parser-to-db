@@ -1,0 +1,10 @@
+{
+  "db": {
+    "coins": {
+      "user": "postgres",
+      "host": "localhost",
+      "database": "postgres",
+      "password": "seregamw1"
+    }
+  }
+}
