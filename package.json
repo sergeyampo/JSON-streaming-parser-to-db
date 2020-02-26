@@ -1,0 +1,34 @@
+{
+  "name": "coins_db",
+  "version": "1.0.0",
+  "description": "This is a simple example of using EventEmitters, Streams, json-stream, axios and minter.network for extracting parsing and calculating data on demand and pushing it to the database.\r ### Installation:\r ```sh\r mkdir streaming-parser && cd streaming-parser\r npm init streaming-parser\r npm i pg stream-json stream-chain axios decimal.js-light config --save-dev\r git clone https://github.com/sergeyampo/JSON-streaming-parser-to-db/\r npm start\r ```",
+  "main": "app.js",
+  "dependencies": {
+    "JSONStream": "^1.3.5",
+    "axios": "^0.19.2",
+    "big.js": "^5.2.2",
+    "config": "^3.2.5",
+    "decimal.js-light": "^2.5.0",
+    "event-stream": "^4.0.1",
+    "lodash": "^4.17.15",
+    "pg": "^7.18.1",
+    "request": "^2.88.2",
+    "stream-json": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyampo/JSON-streaming-parser-to-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeyampo/JSON-streaming-parser-to-db/issues"
+  },
+  "homepage": "https://github.com/sergeyampo/JSON-streaming-parser-to-db#readme"
+}
