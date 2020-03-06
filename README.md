@@ -12,3 +12,5 @@ You should configure json file in a `./config/db.json` for correct database conn
 
 ### What happens:
 ![Diagram](https://github.com/sergeyampo/JSON-streaming-parser-to-db/blob/master/stream-parsing-diagram.png?raw=true)
+### Isn't it easier to JSON.parse():
+No it's not. It's one of the most common mistake in blocking Event Loop in Node by using JSON.parse because it's synchronous function and it wouldn't get into the Worker Pool or in C++ Api's. Every client of the server should be await of parse function to be completed.
